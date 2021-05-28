@@ -261,7 +261,7 @@ line=$(($(cat $esquelet|wc -l)+1))
 for((a=1; a<$line; a++)); do
 echo -ne "\033[1;31mPayload:\033[1;33m "
 cat $esquelet|head -${a}|tail -1
-echo -ne "\033[1;31mResposta:\033[1;32m\n"
+echo -ne "\033[1;31mServer Response:\033[1;32m\n"
 fun_res $hostprox $portx "$(cat $esquelet|head -${a}|tail -1)"
 echo -e "\033[0m"
 done
