@@ -235,8 +235,8 @@ echo -e "${cor[1]} STARTING... ${cor[0]}"
 echo -e "\033[1;37m"
 }
 while true; do
-echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;33m Testar Uma Payload"
-echo -e "\033[1;31m[\033[1;36m2\033[1;31m]\033[1;33m Testar Payloads Cadastradas"
+echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;33m Test Payload"
+echo -e "\033[1;31m[\033[1;36m2\033[1;31m]\033[1;33m auto Create/test frm target Host"
 echo -e "\033[1;37m"
 read -p " [1-2]: " opx
 case $opx in
